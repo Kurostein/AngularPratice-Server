@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{93F2EE77-20E2-4232-9881-3D9F6BB152AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{50FEA61B-78D1-4EA0-A44B-8B7F97ED9F76}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PizzaStore", "src\WebApplication2\PizzaStore.xproj", "{12825702-4561-429B-8095-2C0A86E00983}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PizzaStore.Data", "src\PizzaStore.Data\PizzaStore.Data.xproj", "{A68486F9-8A38-4B7B-87E5-10F44428C15E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12825702-4561-429B-8095-2C0A86E00983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12825702-4561-429B-8095-2C0A86E00983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12825702-4561-429B-8095-2C0A86E00983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12825702-4561-429B-8095-2C0A86E00983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A68486F9-8A38-4B7B-87E5-10F44428C15E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A68486F9-8A38-4B7B-87E5-10F44428C15E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A68486F9-8A38-4B7B-87E5-10F44428C15E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A68486F9-8A38-4B7B-87E5-10F44428C15E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{12825702-4561-429B-8095-2C0A86E00983} = {93F2EE77-20E2-4232-9881-3D9F6BB152AC}
+		{A68486F9-8A38-4B7B-87E5-10F44428C15E} = {93F2EE77-20E2-4232-9881-3D9F6BB152AC}
+	EndGlobalSection
+EndGlobal

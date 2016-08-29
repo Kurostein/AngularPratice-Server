@@ -1,0 +1,228 @@
+﻿Opened connection at 29/08/2016 01:33:17 -03:00
+Started transaction at 29/08/2016 01:33:17 -03:00
+INSERT [dbo].[Client]([name], [tel])
+VALUES (@0, @1)
+SELECT [id]
+FROM [dbo].[Client]
+WHERE @@ROWCOUNT > 0 AND [id] = scope_identity()
+-- @0: 'João' (Type = String, Size = -1)
+-- @1: '12981233' (Type = String, Size = -1)
+-- Executing at 29/08/2016 01:33:18 -03:00
+-- Completed in 154 ms with result: SqlDataReader
+
+Committed transaction at 29/08/2016 01:33:18 -03:00
+Closed connection at 29/08/2016 01:33:18 -03:00
+Opened connection at 29/08/2016 01:33:33 -03:00
+SELECT 
+    [Extent1].[id] AS [id], 
+    [Extent1].[name] AS [name], 
+    [Extent1].[tel] AS [tel]
+    FROM [dbo].[Client] AS [Extent1]
+-- Executing at 29/08/2016 01:33:34 -03:00
+-- Completed in 2 ms with result: SqlDataReader
+
+Closed connection at 29/08/2016 01:33:34 -03:00
+Opened connection at 29/08/2016 01:33:46 -03:00
+Started transaction at 29/08/2016 01:33:46 -03:00
+INSERT [dbo].[Client]([name], [tel])
+VALUES (@0, @1)
+SELECT [id]
+FROM [dbo].[Client]
+WHERE @@ROWCOUNT > 0 AND [id] = scope_identity()
+-- @0: 'João' (Type = String, Size = -1)
+-- @1: '12981233' (Type = String, Size = -1)
+-- Executing at 29/08/2016 01:33:46 -03:00
+-- Completed in 3 ms with result: SqlDataReader
+
+Committed transaction at 29/08/2016 01:33:46 -03:00
+Closed connection at 29/08/2016 01:33:46 -03:00
+Opened connection at 29/08/2016 01:34:08 -03:00
+SELECT 
+    [Extent1].[id] AS [id], 
+    [Extent1].[name] AS [name], 
+    [Extent1].[tel] AS [tel]
+    FROM [dbo].[Client] AS [Extent1]
+-- Executing at 29/08/2016 01:34:08 -03:00
+-- Completed in 2 ms with result: SqlDataReader
+
+Closed connection at 29/08/2016 01:34:08 -03:00
+Opened connection at 29/08/2016 01:35:58 -03:00
+Started transaction at 29/08/2016 01:35:58 -03:00
+UPDATE [dbo].[Client]
+SET [name] = @0, [tel] = @1
+WHERE ([id] = @2)
+-- @0: 'Joãoaa' (Type = String, Size = -1)
+-- @1: '12981233' (Type = String, Size = -1)
+-- @2: '1' (Type = Int32)
+-- Executing at 29/08/2016 01:35:58 -03:00
+-- Completed in 33 ms with result: 1
+
+Committed transaction at 29/08/2016 01:35:58 -03:00
+Closed connection at 29/08/2016 01:35:58 -03:00
+Opened connection at 29/08/2016 01:36:06 -03:00
+SELECT 
+    [Extent1].[id] AS [id], 
+    [Extent1].[name] AS [name], 
+    [Extent1].[tel] AS [tel]
+    FROM [dbo].[Client] AS [Extent1]
+-- Executing at 29/08/2016 01:36:06 -03:00
+-- Completed in 1 ms with result: SqlDataReader
+
+Closed connection at 29/08/2016 01:36:06 -03:00
+Opened connection at 29/08/2016 01:37:00 -03:00
+SELECT 
+    [Extent1].[id] AS [id], 
+    [Extent1].[name] AS [name], 
+    [Extent1].[tel] AS [tel]
+    FROM [dbo].[Client] AS [Extent1]
+-- Executing at 29/08/2016 01:37:00 -03:00
+-- Completed in 2 ms with result: SqlDataReader
+
+Closed connection at 29/08/2016 01:37:00 -03:00
+Opened connection at 29/08/2016 01:38:42 -03:00
+SELECT TOP (2) 
+    [Extent1].[id] AS [id], 
+    [Extent1].[name] AS [name], 
+    [Extent1].[tel] AS [tel]
+    FROM [dbo].[Client] AS [Extent1]
+    WHERE [Extent1].[id] = @p0
+-- p0: '2' (Type = Int32)
+-- Executing at 29/08/2016 01:38:45 -03:00
+-- Completed in 6 ms with result: SqlDataReader
+
+Closed connection at 29/08/2016 01:38:45 -03:00
+Opened connection at 29/08/2016 01:40:16 -03:00
+SELECT 
+    [Extent1].[id] AS [id], 
+    [Extent1].[name] AS [name], 
+    [Extent1].[tel] AS [tel]
+    FROM [dbo].[Client] AS [Extent1]
+-- Executing at 29/08/2016 01:40:18 -03:00
+-- Completed in 2 ms with result: SqlDataReader
+
+Closed connection at 29/08/2016 01:40:18 -03:00
+Opened connection at 29/08/2016 01:42:01 -03:00
+Started transaction at 29/08/2016 01:42:01 -03:00
+DELETE [dbo].[Client]
+WHERE ([id] = @0)
+-- @0: '1' (Type = Int32)
+-- Executing at 29/08/2016 01:42:03 -03:00
+-- Completed in 5 ms with result: 1
+
+Committed transaction at 29/08/2016 01:42:03 -03:00
+Closed connection at 29/08/2016 01:42:03 -03:00
+Opened connection at 29/08/2016 01:42:15 -03:00
+SELECT 
+    [Extent1].[id] AS [id], 
+    [Extent1].[name] AS [name], 
+    [Extent1].[tel] AS [tel]
+    FROM [dbo].[Client] AS [Extent1]
+-- Executing at 29/08/2016 01:42:15 -03:00
+-- Completed in 2 ms with result: SqlDataReader
+
+Closed connection at 29/08/2016 01:42:15 -03:00
+Opened connection at 29/08/2016 01:47:47 -03:00
+SELECT 
+    [Extent1].[id] AS [id], 
+    [Extent1].[name] AS [name], 
+    [Extent1].[tel] AS [tel]
+    FROM [dbo].[Client] AS [Extent1]
+-- Executing at 29/08/2016 01:47:49 -03:00
+-- Completed in 2 ms with result: SqlDataReader
+
+Closed connection at 29/08/2016 01:47:49 -03:00
+Opened connection at 29/08/2016 01:50:14 -03:00
+Started transaction at 29/08/2016 01:50:14 -03:00
+INSERT [dbo].[Client]([name], [tel])
+VALUES (@0, @1)
+SELECT [id]
+FROM [dbo].[Client]
+WHERE @@ROWCOUNT > 0 AND [id] = scope_identity()
+-- @0: 'Joãoaa' (Type = String, Size = -1)
+-- @1: '12981233' (Type = String, Size = -1)
+-- Executing at 29/08/2016 01:50:14 -03:00
+-- Completed in 3 ms with result: SqlDataReader
+
+Committed transaction at 29/08/2016 01:50:14 -03:00
+Closed connection at 29/08/2016 01:50:14 -03:00
+Opened connection at 29/08/2016 01:50:19 -03:00
+SELECT 
+    [Extent1].[id] AS [id], 
+    [Extent1].[name] AS [name], 
+    [Extent1].[tel] AS [tel]
+    FROM [dbo].[Client] AS [Extent1]
+-- Executing at 29/08/2016 01:50:19 -03:00
+-- Completed in 2 ms with result: SqlDataReader
+
+Closed connection at 29/08/2016 01:50:19 -03:00
+Opened connection at 29/08/2016 01:51:03 -03:00
+Started transaction at 29/08/2016 01:51:03 -03:00
+UPDATE [dbo].[Client]
+SET [name] = @0, [tel] = @1
+WHERE ([id] = @2)
+-- @0: 'Maria' (Type = String, Size = -1)
+-- @1: '12981233' (Type = String, Size = -1)
+-- @2: '3' (Type = Int32)
+-- Executing at 29/08/2016 01:51:03 -03:00
+-- Completed in 5 ms with result: 1
+
+Committed transaction at 29/08/2016 01:51:03 -03:00
+Closed connection at 29/08/2016 01:51:03 -03:00
+Opened connection at 29/08/2016 01:51:08 -03:00
+SELECT 
+    [Extent1].[id] AS [id], 
+    [Extent1].[name] AS [name], 
+    [Extent1].[tel] AS [tel]
+    FROM [dbo].[Client] AS [Extent1]
+-- Executing at 29/08/2016 01:51:08 -03:00
+-- Completed in 1 ms with result: SqlDataReader
+
+Closed connection at 29/08/2016 01:51:08 -03:00
+Opened connection at 29/08/2016 01:51:28 -03:00
+Started transaction at 29/08/2016 01:51:28 -03:00
+INSERT [dbo].[Client]([name], [tel])
+VALUES (@0, @1)
+SELECT [id]
+FROM [dbo].[Client]
+WHERE @@ROWCOUNT > 0 AND [id] = scope_identity()
+-- @0: 'Ana' (Type = String, Size = -1)
+-- @1: '123123113' (Type = String, Size = -1)
+-- Executing at 29/08/2016 01:51:28 -03:00
+-- Completed in 4 ms with result: SqlDataReader
+
+Committed transaction at 29/08/2016 01:51:28 -03:00
+Closed connection at 29/08/2016 01:51:28 -03:00
+Opened connection at 29/08/2016 01:51:45 -03:00
+Started transaction at 29/08/2016 01:51:45 -03:00
+DELETE [dbo].[Client]
+WHERE ([id] = @0)
+-- @0: '3' (Type = Int32)
+-- Executing at 29/08/2016 01:51:45 -03:00
+-- Completed in 2 ms with result: 1
+
+Committed transaction at 29/08/2016 01:51:45 -03:00
+Closed connection at 29/08/2016 01:51:45 -03:00
+Opened connection at 29/08/2016 01:51:50 -03:00
+SELECT TOP (2) 
+    [Extent1].[id] AS [id], 
+    [Extent1].[name] AS [name], 
+    [Extent1].[tel] AS [tel]
+    FROM [dbo].[Client] AS [Extent1]
+    WHERE [Extent1].[id] = @p0
+-- p0: '2' (Type = Int32)
+-- Executing at 29/08/2016 01:51:50 -03:00
+-- Completed in 1 ms with result: SqlDataReader
+
+Closed connection at 29/08/2016 01:51:50 -03:00
+Opened connection at 29/08/2016 01:51:53 -03:00
+SELECT TOP (2) 
+    [Extent1].[id] AS [id], 
+    [Extent1].[name] AS [name], 
+    [Extent1].[tel] AS [tel]
+    FROM [dbo].[Client] AS [Extent1]
+    WHERE [Extent1].[id] = @p0
+-- p0: '3' (Type = Int32)
+-- Executing at 29/08/2016 01:51:53 -03:00
+-- Completed in 1 ms with result: SqlDataReader
+
+Closed connection at 29/08/2016 01:51:53 -03:00
