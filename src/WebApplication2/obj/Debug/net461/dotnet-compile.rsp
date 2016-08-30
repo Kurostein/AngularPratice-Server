@@ -1,5 +1,5 @@
---temp-output:c:\users\cloudbuilt\documents\visual studio 2015\Projects\WebApplication2\src\WebApplication2\obj\Debug\net461\
---out:c:\users\cloudbuilt\documents\visual studio 2015\Projects\WebApplication2\src\WebApplication2\bin\Debug\net461\WebApplication2.exe
+--temp-output:C:\Users\Cloudbuilt\Documents\Visual Studio 2015\Projects\WebApplication2\src\WebApplication2\obj\Debug\net461\
+--out:C:\Users\Cloudbuilt\Documents\Visual Studio 2015\Projects\WebApplication2\src\WebApplication2\bin\Debug\net461\WebApplication2.exe
 --define:DEBUG
 --define:TRACE
 --define:NET461
@@ -145,7 +145,7 @@
 --reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Threading.Tasks.Parallel.dll
 --reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Xml.ReaderWriter.dll
 --reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\Facades\System.Xml.XDocument.dll
---reference:c:\users\cloudbuilt\documents\visual studio 2015\Projects\WebApplication2\src\PizzaStore.Data\bin\Debug\net461\PizzaStore.Data.dll
+--reference:C:\Users\Cloudbuilt\Documents\Visual Studio 2015\Projects\WebApplication2\src\PizzaStore.Data\bin\Debug\net461\PizzaStore.Data.dll
 --reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\mscorlib.dll
 --reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.dll
 --reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Core.dll
@@ -155,7 +155,7 @@
 --reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Xml.Linq.dll
 --reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Numerics.dll
 --reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Runtime.Serialization.dll
---resource:"c:\users\cloudbuilt\documents\visual studio 2015\Projects\WebApplication2\src\WebApplication2\obj\Debug\net461\WebApplication2dotnet-compile.deps.json",WebApplication2.deps.json
-c:\users\cloudbuilt\documents\visual studio 2015\Projects\WebApplication2\src\WebApplication2\Program.cs
-c:\users\cloudbuilt\documents\visual studio 2015\Projects\WebApplication2\src\WebApplication2\Startup.cs
-c:\users\cloudbuilt\documents\visual studio 2015\Projects\WebApplication2\src\WebApplication2\Controllers\ClientController.cs
+--resource:"C:\Users\Cloudbuilt\Documents\Visual Studio 2015\Projects\WebApplication2\src\WebApplication2\obj\Debug\net461\WebApplication2dotnet-compile.deps.json",WebApplication2.deps.json
+C:\Users\Cloudbuilt\Documents\Visual Studio 2015\Projects\WebApplication2\src\WebApplication2\Program.cs
+C:\Users\Cloudbuilt\Documents\Visual Studio 2015\Projects\WebApplication2\src\WebApplication2\Startup.cs
+C:\Users\Cloudbuilt\Documents\Visual Studio 2015\Projects\WebApplication2\src\WebApplication2\Controllers\ClientController.cs

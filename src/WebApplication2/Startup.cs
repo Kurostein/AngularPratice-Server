@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -37,6 +38,8 @@ namespace WebApplication2
             services.AddScoped<PizzaContext, PizzaContext>();
             services.AddScoped<IClientRepository, ClientRepository>();
 
+            services.AddCors();
+
             services.AddMvc();
         }
 
@@ -61,6 +64,13 @@ namespace WebApplication2
             app.UseApplicationInsightsExceptionTelemetry();
 
             app.UseStaticFiles();
+
+            app.UseCors(c =>
+            {
+                c.AllowAnyHeader();
+                c.AllowAnyMethod();
+                c.AllowAnyOrigin();
+            });
 
             //app.UseMvc(routes =>
             //{

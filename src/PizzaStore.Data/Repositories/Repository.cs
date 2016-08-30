@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
+using System.Data.Entity.Infrastructure;
 
 namespace PizzaStore.Data.Repositories
 {
@@ -36,7 +37,14 @@ namespace PizzaStore.Data.Repositories
         public void Update(TEntity entity)
         {
             _context.Entry(entity).State = EntityState.Modified;
-            _context.SaveChanges();
+            try
+            {
+                _context.SaveChanges();
+            }catch(DbUpdateConcurrencyException ex)
+            {
+
+            }
+            
         }
     }
 }
