@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Data.Entity;
-using System.Linq;
 using System.Data.Entity.Infrastructure;
+using System.Linq;
 
 namespace PizzaStore.Data.Repositories
 {
@@ -42,9 +42,10 @@ namespace PizzaStore.Data.Repositories
                 _context.SaveChanges();
             }catch(DbUpdateConcurrencyException ex)
             {
-
-            }
-            
+                var dbProperties = _context.Entry(entity).GetDatabaseValues();
+                _context.Entry(entity).OriginalValues.SetValues(dbProperties);
+                _context.SaveChanges();
+            }            
         }
     }
 }

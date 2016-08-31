@@ -10,7 +10,7 @@ namespace PizzaStore.Data
         public PizzaContext() : base("Data Source=CLOUDBUILT\\SQLEXPRESS; Initial Catalog=PizzaStore; Integrated Security=True; Connect Timeout=15; Encrypt=False; TrustServerCertificate=True; ApplicationIntent=ReadWrite; MultiSubnetFailover=False")
         {
             this.Configuration.LazyLoadingEnabled = false;
-            this.Database.Log = (sqlText => SqlLogger.WriteSql(sqlText));
+            //this.Database.Log = (sqlText => SqlLogger.WriteSql(sqlText));
         }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

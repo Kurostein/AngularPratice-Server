@@ -1269,7 +1269,8 @@
       },
       "PizzaStore.Data/1.0.0": {
         "dependencies": {
-          "EntityFramework": "6.1.3"
+          "EntityFramework": "6.1.3",
+          "System.Data": "4.0.0.0"
         },
         "compile": {
           "PizzaStore.Data.dll": {}
@@ -1318,6 +1319,11 @@
       "System.Runtime.Serialization/4.0.0.0": {
         "compile": {
           ".NETFramework/v4.6.1/System.Runtime.Serialization.dll": {}
+        }
+      },
+      "System.Data/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.6.1/System.Data.dll": {}
         }
       }
     },
@@ -2478,7 +2484,8 @@
       },
       "PizzaStore.Data/1.0.0": {
         "dependencies": {
-          "EntityFramework": "6.1.3"
+          "EntityFramework": "6.1.3",
+          "System.Data": "4.0.0.0"
         },
         "runtime": {
           "PizzaStore.Data.dll": {}
@@ -2492,7 +2499,8 @@
       "System.Xml/4.0.0.0": {},
       "System.Xml.Linq/4.0.0.0": {},
       "System.Numerics/4.0.0.0": {},
-      "System.Runtime.Serialization/4.0.0.0": {}
+      "System.Runtime.Serialization/4.0.0.0": {},
+      "System.Data/4.0.0.0": {}
     }
   },
   "libraries": {
@@ -3247,6 +3255,11 @@
       "sha512": ""
     },
     "System.Runtime.Serialization/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Data/4.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""

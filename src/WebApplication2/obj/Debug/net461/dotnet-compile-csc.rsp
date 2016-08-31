@@ -151,6 +151,7 @@
 -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Xml.Linq.dll"
 -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Numerics.dll"
 -r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Runtime.Serialization.dll"
+-r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Data.dll"
 -resource:"C:\Users\Cloudbuilt\Documents\Visual Studio 2015\Projects\WebApplication2\src\WebApplication2\obj\Debug\net461\WebApplication2dotnet-compile.deps.json",WebApplication2.deps.json
 "C:\Users\Cloudbuilt\Documents\Visual Studio 2015\Projects\WebApplication2\src\WebApplication2\Program.cs"
 "C:\Users\Cloudbuilt\Documents\Visual Studio 2015\Projects\WebApplication2\src\WebApplication2\Startup.cs"
